@@ -1,9 +1,13 @@
 # mod
-go.mod
 go.sum
 
 # Go
 vendor/
 
 # PDF の output
-output/
+output/*
+!output/.gitkeep
+
+# ダウンロードしたファイル
+download/*
+!download/.gitkeep
